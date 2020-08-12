@@ -1,0 +1,28 @@
+{
+  "name": "brandeis-templates",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^1.2.1",
+    "grunt-concurrent": "^3.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^5.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-criticalcss": "^2.1.0",
+    "grunt-google-fonts": "^0.5.0",
+    "grunt-inline-css": "^1.0.0",
+    "grunt-sass": "^3.1.0",
+    "grunt-sass-globbing": "^1.5.1",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "fastclick": "^1.0.6",
+    "foundation-sites": "^6.6.3",
+    "jquery": "^3.5.1",
+    "jquery-placeholder": "^2.3.1",
+    "modernizr": "^3.11.3",
+    "normalize": "^0.3.1",
+    "normalizecss": "^3.0.0"
+  }
+}

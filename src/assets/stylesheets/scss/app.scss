@@ -1,0 +1,147 @@
+$primary-color: #003478;
+$secondary-color: #58595b;
+$body-font-family: 'Catamaran', sans-serif;
+$header-font-family: 'Catamaran', sans-serif;
+$button-font-family: 'Catamaran', sans-serif;
+$button-background: $secondary-color;
+$button-padding: 10px;
+
+$anchor-color: $primary-color;
+$anchor-color-hover: darken($primary-color, 10%);
+
+$foundation-palette: (
+  primary: $primary-color,
+  secondary: $secondary-color,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #ec5840,
+);
+
+@include foundation-everything;
+
+*::selection {
+  background-color: opacify($primary-color, .9);
+  color:#fff;
+}
+*::-moz-selection {
+  background-color: opacify($primary-color, .9);
+  color:#fff;
+}
+img::selection {
+	background-color: opacify($primary-color, .5);
+}
+img::-moz-selection {
+	background-color: opacify($primary-color, .5);
+}
+
+.hidden {
+	display: none;
+}
+
+.grid-container {
+	width: 75rem;
+}
+
+.center {
+	text-align: center;
+}
+
+.button {
+	background-color: $primary-color;
+	padding: 10px 25px;
+	&:hover {
+		background-color: darken($primary-color, 10%);
+	}
+}
+
+.callout {
+	border: none;
+}
+
+.image-left {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.image-right {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 1.9375rem;
+}
+
+header {
+	background-image: url('/assets/images/bg_header.png');
+	background-repeat: repeat-x;
+	height: 161px;
+	position: relative;
+	.logo-row {
+		padding: 15px 0;
+		.logo {
+			padding: 8px 0;
+		}
+	}
+	.menu-row {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 42px;
+		.main-navigation {
+			margin: 0;
+			padding: 0;
+			li {
+				display: inline-block;
+				a {
+					display: block;
+					padding: 8px 10px;
+					font-weight: bold;
+					border-right: 1px solid $secondary-color;
+				}
+				&:last-child a {
+					border-right: none;
+				}
+			}
+		}
+	}
+}
+
+main {
+	padding: 25px 0;
+	article, .item-list-container {
+		clear: both;
+		display: block;
+		.item-list {
+			margin-bottom: 15px;
+		}
+	}
+}
+
+footer {
+	background: #dcdcdc;
+	padding: 25px 0;
+	border-top: 10px solid $primary-color;
+	.copyright {
+		padding: 10px 0;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	
+}

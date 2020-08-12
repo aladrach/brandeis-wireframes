@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/assets/stylesheets/fonts/merriweather-400-normal.eot');
+	src: local('Merriweather Regular'), local('Merriweather-Regular'), url('/assets/stylesheets/fonts/merriweather-400-normal.eot#iefix') format('embedded-opentype'), url('/assets/stylesheets/fonts/merriweather-400-normal.woff') format('woff'), url('/assets/stylesheets/fonts/merriweather-400-normal.ttf') format('truetype'), url('/assets/stylesheets/fonts/merriweather-400-normal.svg#Merriweather') format('svg');
+}
+@font-face {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	src: url('/assets/stylesheets/fonts/merriweather-400-italic.eot');
+	src: local('Merriweather Italic'), local('Merriweather-Italic'), url('/assets/stylesheets/fonts/merriweather-400-italic.eot#iefix') format('embedded-opentype'), url('/assets/stylesheets/fonts/merriweather-400-italic.woff') format('woff'), url('/assets/stylesheets/fonts/merriweather-400-italic.ttf') format('truetype'), url('/assets/stylesheets/fonts/merriweather-400-italic.svg#Merriweather') format('svg');
+}
+@font-face {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/assets/stylesheets/fonts/merriweather-700-normal.eot');
+	src: local('Merriweather Bold'), local('Merriweather-Bold'), url('/assets/stylesheets/fonts/merriweather-700-normal.eot#iefix') format('embedded-opentype'), url('/assets/stylesheets/fonts/merriweather-700-normal.woff') format('woff'), url('/assets/stylesheets/fonts/merriweather-700-normal.ttf') format('truetype'), url('/assets/stylesheets/fonts/merriweather-700-normal.svg#Merriweather') format('svg');
+}
+@font-face {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 700;
+	src: url('/assets/stylesheets/fonts/merriweather-700-italic.eot');
+	src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url('/assets/stylesheets/fonts/merriweather-700-italic.eot#iefix') format('embedded-opentype'), url('/assets/stylesheets/fonts/merriweather-700-italic.woff') format('woff'), url('/assets/stylesheets/fonts/merriweather-700-italic.ttf') format('truetype'), url('/assets/stylesheets/fonts/merriweather-700-italic.svg#Merriweather') format('svg');
+}
+@font-face {
+	font-family: 'Catamaran';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/assets/stylesheets/fonts/catamaran-400-normal.eot');
+	src: url('/assets/stylesheets/fonts/catamaran-400-normal.eot#iefix') format('embedded-opentype'), url('/assets/stylesheets/fonts/catamaran-400-normal.woff') format('woff'), url('/assets/stylesheets/fonts/catamaran-400-normal.ttf') format('truetype'), url('/assets/stylesheets/fonts/catamaran-400-normal.svg#Catamaran') format('svg');
+}
+@font-face {
+	font-family: 'Catamaran';
+	font-style: normal;
+	font-weight: 600;
+	src: url('/assets/stylesheets/fonts/catamaran-600-normal.eot');
+	src: url('/assets/stylesheets/fonts/catamaran-600-normal.eot#iefix') format('embedded-opentype'), url('/assets/stylesheets/fonts/catamaran-600-normal.woff') format('woff'), url('/assets/stylesheets/fonts/catamaran-600-normal.ttf') format('truetype'), url('/assets/stylesheets/fonts/catamaran-600-normal.svg#Catamaran') format('svg');
+}
+@font-face {
+	font-family: 'Catamaran';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/assets/stylesheets/fonts/catamaran-700-normal.eot');
+	src: url('/assets/stylesheets/fonts/catamaran-700-normal.eot#iefix') format('embedded-opentype'), url('/assets/stylesheets/fonts/catamaran-700-normal.woff') format('woff'), url('/assets/stylesheets/fonts/catamaran-700-normal.ttf') format('truetype'), url('/assets/stylesheets/fonts/catamaran-700-normal.svg#Catamaran') format('svg');
+}
